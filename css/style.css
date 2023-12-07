@@ -1,0 +1,426 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0;
+    padding-top: 100px;
+    background-image: url(/imagens/6_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid red;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+.tituloindex {
+    width: 900px;
+    margin: auto;
+    border-bottom: 3px solid red;
+    width: 400px;
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+p {
+    width: 800px;
+    margin: auto;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.8;
+
+}
+
+.container2 {
+    background-color: black;
+    opacity: 0.8;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-radius: 5%;
+
+}
+
+
+#cabecalho {
+    margin-top: 10px;
+
+}
+
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+    background-color: black;
+    position: relative;
+    opacity: 0.8;
+
+
+}
+
+#cabecalho #menu ul {
+    list-style: none;
+}
+
+
+#cabecalho #menu ul li a {
+    display: block;
+    padding: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+#cabecalho #menu ul li a:hover {
+    text-decoration: underline red;
+}
+
+#rodape {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+#rodape a {
+    color: #06c;
+    text-decoration: none;
+
+}
+
+#japao {
+    float: right;
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+
+}
+
+#peal {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#almirante {
+    float: right;
+    width: 150px;
+    margin-left: 10px;
+
+
+}
+
+img:hover {
+    box-shadow: 0 0 8px red;
+    transition: 0.5s linear;
+    scale: 1.5;
+}
+
+#nagumo {
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#midway {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#mdw2 {
+    float: left;
+    margin-right: 10px;
+
+}
+
+#mapa {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+}
+
+#servico {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+
+}
+
+#map_gua {
+    float: right;
+    width: 250px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+#guard {
+    float: left;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+#abg {
+    float: right;
+    width: 300px;
+
+    margin-left: 15px;
+
+}
+
+#bg {
+    float: left;
+    margin-right: 10px;
+
+}
+
+#gl {
+    float: right;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+#leyte {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#kami {
+    float: right;
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 10px;
+
+}
+
+#pkm {
+    float: left;
+    width: 350px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+#tarawa {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Tarawa_beach {
+    float: right;
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#keiji {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+#Dt {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#red {
+    float: left;
+    width: 170px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#iwo {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+#Tadamichi {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#marines {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+#flage {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#okinawa {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#tufao {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#civis {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#tuneis {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#wwii {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#suicidejapan {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#memorial {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+@media (max-width:1280px) {
+    img {
+        width: auto;
+        padding-right: 10px;
+
+    }
+
+    p {
+        font-size: 15px;
+
+    }
+
+    .container2 {
+        width: 810px;
+        padding: auto;
+
+
+    }
+
+    .container {
+        width: 800px;
+        padding: auto;
+    }
+
+    .titulo {
+        width: 300px;
+        font-size: 25px;
+        margin: auto;
+        padding: auto;
+
+
+
+
+    }
+
+    .tituloindex {
+        width: 300px;
+        font-size: 25px;
+        margin: auto;
+        padding: auto;
+
+    }
+
+    #cabecalho {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    #cabecalho #menu ul {
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+}
